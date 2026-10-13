@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AutoDeleteHistory",
+  "version": "1.0.0",
+  "description": "Deletes the navigator history of the previous session when opening a new navigator session.",
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": ["history"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
